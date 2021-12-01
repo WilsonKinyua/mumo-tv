@@ -254,3 +254,9 @@ hr {
   color: black;
   transition: 200ms;
 }
+
+@media (max-width: 575px) {
+  .map iframe {
+    width: 330px !important;
+  }
+}
