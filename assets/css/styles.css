@@ -13,7 +13,13 @@ a {
   font-size: 15px;
   margin-right: 40px;
 }
+.main-color {
+  color: rgba(134, 2, 2, 0.952);
+}
 
+.text-bold {
+  font-weight: bold;
+}
 .btn {
   border-radius: 0;
 }
