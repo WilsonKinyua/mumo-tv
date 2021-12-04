@@ -112,6 +112,9 @@ a {
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.sm-display {
+  display: none;
+}
 
 @media (max-width: 767px) {
   .navigation-clean-button {
@@ -124,6 +127,12 @@ a {
 
   .about-img {
     height: 100%;
+  }
+  .lg-display {
+    display: none;
+  }
+  .sm-display {
+    display: block;
   }
 }
 
