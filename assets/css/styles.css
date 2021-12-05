@@ -281,3 +281,16 @@ hr {
     width: 330px !important;
   }
 }
+
+@media (max-width: 767px) {
+  .header-item h1 {
+    font-size: 19px;
+  }
+  .schedule-table .item-name {
+    width: auto;
+  }
+  .schedule-table .table-body .table-item {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
